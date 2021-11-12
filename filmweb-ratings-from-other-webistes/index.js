@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Filmweb.pl — Ratings from other websites
+// @name         filmweb.pl — Ratings from other websites
 // @description  Show ratings on the filmweb.pl movie page from IMDB, Rotten Tomatoes and Metacritic.
 // @author       Rafal Enden
 // @namespace    https://github.com/rafenden
