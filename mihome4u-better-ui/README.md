@@ -2,6 +2,8 @@
 
 Improve the UI on the mihome4u.co.uk website.
 
+This userscript is also uploaded to [Greasy Fork](https://greasyfork.org/en/scripts/435414-mihome4u-co-uk-better-ui).
+
 ## List of fixes
 
 * Added favicon.

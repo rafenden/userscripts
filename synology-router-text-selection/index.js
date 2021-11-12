@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Synology Router — Enable text selection
-// @description  Enable text selection in Synology Router admin UI.
+// @description  Enable text selection in Synology SRM (router).
 // @author       Rafal Enden
 // @namespace    https://github.com/rafenden
 // @homepageURL  https://github.com/rafenden/userscripts/synology-router-text-selection

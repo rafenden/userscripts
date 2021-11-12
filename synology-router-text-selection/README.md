@@ -1,5 +1,5 @@
-# gametracker.com — Connect via Steam
+# Synology SRM — Enable text selection
  
-Add a link on gametracker.com server page allowing to connect via Steam.
+Enable text selection in Synology SRM (router).
 
-![Screenshot](screenshot.png)
+This userscript is also uploaded to [Greasy Fork](https://greasyfork.org/en/scripts/435415-synology-router-enable-text-selection).
