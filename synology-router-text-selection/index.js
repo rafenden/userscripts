@@ -5,6 +5,7 @@
 // @namespace    https://github.com/rafenden
 // @homepageURL  https://github.com/rafenden/userscripts/synology-router-text-selection
 // @supportURL   https://github.com/rafenden/userscripts/issues
+// @license      MIT
 // @version      1.0
 // @match        *://*/webman/index.cgi
 // @grant        none

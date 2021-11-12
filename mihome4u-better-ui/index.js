@@ -5,6 +5,7 @@
 // @namespace    https://github.com/rafenden
 // @homepageURL  https://github.com/rafenden/userscripts/mihome4u-better-ui
 // @supportURL   https://github.com/rafenden/userscripts/issues
+// @license      MIT
 // @version      1.0
 // @match        *://www.mihome4u.co.uk/*
 // @grant        none

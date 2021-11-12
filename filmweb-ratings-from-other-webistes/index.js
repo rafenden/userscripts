@@ -5,6 +5,7 @@
 // @namespace    https://github.com/rafenden
 // @homepageURL  https://github.com/rafenden/userscripts/filmweb-ratings-from-other-webistes
 // @supportURL   https://github.com/rafenden/userscripts/issues
+// @license      MIT
 // @version      1.0
 // @match        *://www.filmweb.pl/*
 // @connect      www.omdbapi.com

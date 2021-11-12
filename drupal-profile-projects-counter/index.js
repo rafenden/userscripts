@@ -5,6 +5,7 @@
 // @namespace    https://github.com/rafenden
 // @homepageURL  https://github.com/rafenden/userscripts/drupal-profile-projects-counter
 // @supportURL   https://github.com/rafenden/userscripts/issues
+// @license      MIT
 // @version      1.0
 // @match        *://www.drupal.org/u/*
 // @grant        none
