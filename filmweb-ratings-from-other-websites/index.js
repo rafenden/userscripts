@@ -16,7 +16,7 @@
 document.querySelector('.filmRating.hide').classList.remove('hide')
 
 const getTitle = () => {
-  return document.querySelector('.filmCoverSection__orginalTitle').textContent
+  return (document.querySelector('.filmCoverSection__orginalTitle') || document.querySelector('.filmCoverSection__title')).textContent
 }
 
 const getYear = () => {
@@ -40,12 +40,7 @@ const addRatings = (json) => {
       ratingUrl = `https://www.imdb.com/title/${json.imdbID}/`
     }
 
-
     ratingsContainer.innerHTML = ratingsContainer.innerHTML + `<a class="filmRating__count" style="margin-right: 10px" href="${ratingUrl}">${rating.Source}: <strong>${rating.Value}</strong></a>`
-
-    `
-    
-    `
   }
 }
 
@@ -54,7 +49,7 @@ GM_xmlhttpRequest({
   method: 'GET',
   url: `http://www.omdbapi.com/?apikey=6be019fc&tomatoes=true&t=${getTitle()}&y=${getYear()}`,
   onload: (response) => {
-    var json = JSON.parse(response.responseText)
+    const json = JSON.parse(response.responseText)
     if (json) {
       if (json.Error) {
         console.error(`Error: ${json.Error}`)
