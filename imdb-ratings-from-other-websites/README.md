@@ -1,0 +1,9 @@
+# imdb.com — Ratings from other websites
+
+Show ratings on the imdb.com movie page from Filmweb, Rotten Tomatoes and Metacritic.
+
+This userscript was based on a [script for IMDB by Ede123](https://github.com/Ede123/userscripts/blob/master/Rotten_Tomatoes_Link_On_IMDb.md).
+
+This userscript is also uploaded to [Greasy Fork](https://greasyfork.org/en/scripts/435503-imdb-com-ratings-from-other-websites).
+
+![Screenshot](screenshot.png)
