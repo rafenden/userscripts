@@ -3,7 +3,7 @@
 // @description  Show ratings on the filmweb.pl movie page from IMDB, Rotten Tomatoes and Metacritic.
 // @author       Rafal Enden
 // @namespace    https://github.com/rafenden
-// @homepageURL  https://github.com/rafenden/userscripts/filmweb-ratings-from-other-webistes
+// @homepageURL  https://github.com/rafenden/userscripts/blob/master/filmweb-ratings-from-other-websites
 // @supportURL   https://github.com/rafenden/userscripts/issues
 // @license      MIT
 // @version      1.0
@@ -16,7 +16,7 @@
 document.querySelector('.filmRating.hide').classList.remove('hide')
 
 const getTitle = () => {
-  return (document.querySelector('.filmCoverSection__orginalTitle') || document.querySelector('.filmCoverSection__title')).textContent
+  return document.querySelector('.filmCoverSection__orginalTitle').textContent
 }
 
 const getYear = () => {
@@ -40,7 +40,12 @@ const addRatings = (json) => {
       ratingUrl = `https://www.imdb.com/title/${json.imdbID}/`
     }
 
+
     ratingsContainer.innerHTML = ratingsContainer.innerHTML + `<a class="filmRating__count" style="margin-right: 10px" href="${ratingUrl}">${rating.Source}: <strong>${rating.Value}</strong></a>`
+
+    `
+    
+    `
   }
 }
 

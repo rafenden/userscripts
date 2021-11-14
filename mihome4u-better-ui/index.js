@@ -3,7 +3,7 @@
 // @description  Improve the UI on the mihome4u.co.uk website.
 // @author       Rafal Enden
 // @namespace    https://github.com/rafenden
-// @homepageURL  https://github.com/rafenden/userscripts/mihome4u-better-ui
+// @homepageURL  https://github.com/rafenden/userscripts/blob/master/mihome4u-better-ui
 // @supportURL   https://github.com/rafenden/userscripts/issues
 // @license      MIT
 // @version      1.0

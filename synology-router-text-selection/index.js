@@ -3,7 +3,7 @@
 // @description  Enable text selection in Synology SRM (router).
 // @author       Rafal Enden
 // @namespace    https://github.com/rafenden
-// @homepageURL  https://github.com/rafenden/userscripts/synology-router-text-selection
+// @homepageURL  https://github.com/rafenden/userscripts/blob/master/synology-router-text-selection
 // @supportURL   https://github.com/rafenden/userscripts/issues
 // @license      MIT
 // @version      1.0

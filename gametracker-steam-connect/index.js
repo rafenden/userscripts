@@ -3,7 +3,7 @@
 // @description  Add a link on the gametracker.com server page allowing to connect via Steam.
 // @author       Rafal Enden
 // @namespace    https://github.com/rafenden
-// @homepageURL  https://github.com/rafenden/userscripts/gametracker-steam-connect
+// @homepageURL  https://github.com/rafenden/userscripts/blob/master/gametracker-steam-connect
 // @supportURL   https://github.com/rafenden/userscripts/issues
 // @license      MIT
 // @version      1.0
