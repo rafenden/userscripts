@@ -31,13 +31,13 @@ function addRating(siteName, url, rating, count) {
   const ratingsWrapper = document.querySelector('[class*="TitleBlock__HideableRatingBar"]')
   const ratingItem = document.querySelector('[data-testid="hero-rating-bar__aggregate-rating"]')
 
-  const filmwebRatingItem = ratingItem.cloneNode(true)
-  filmwebRatingItem.firstElementChild.innerText = siteName
-  filmwebRatingItem.querySelector('[class*="RatingBarButtonBase__Button"]').setAttribute('href', url)
-  filmwebRatingItem.querySelector('[data-testid="hero-rating-bar__aggregate-rating__score"]').firstElementChild.innerText = rating
-  filmwebRatingItem.querySelector('[class*="AggregateRatingButton__TotalRatingAmount"]').innerText = count || ''
+  const newRatingItem = ratingItem.cloneNode(true)
+  newRatingItem.firstElementChild.innerText = siteName
+  newRatingItem.querySelector('[class*="RatingBarButtonBase__Button"]').setAttribute('href', url)
+  newRatingItem.querySelector('[data-testid="hero-rating-bar__aggregate-rating__score"]').firstElementChild.innerText = rating
+  newRatingItem.querySelector('[class*="AggregateRatingButton__TotalRatingAmount"]').innerText = count || ''
 
-  ratingsWrapper.prepend(filmwebRatingItem)
+  ratingsWrapper.prepend(newRatingItem)
 }
 
 function showFilmwebRating() {
@@ -93,8 +93,3 @@ showOtherRatings()
 document.querySelectorAll('[data-testid="hero-rating-bar__aggregate-rating__score"]').forEach((element) => {
   element.lastElementChild.remove()
 })
-
-
-
-
-
