@@ -16,7 +16,7 @@
 document.querySelector('.filmRating.hide').classList.remove('hide')
 
 const getTitle = () => {
-  return (document.querySelector('.filmCoverSection__orginalTitle') || document.querySelector('.filmCoverSection__title')).textContent
+  return (document.querySelector('.filmCoverSection__originalTitle') || document.querySelector('.filmCoverSection__title')).textContent
 }
 
 const getYear = () => {
@@ -25,6 +25,7 @@ const getYear = () => {
 
 const addRatings = (json) => {
   const ratingsContainer = document.querySelector('.filmCoverSection__ratings')
+  ratingsContainer.innerHTML = ratingsContainer.innerHTML + '<br />'
 
   for (let i = 0; i < json.Ratings.length; i++) {
     const rating = json.Ratings[i]
