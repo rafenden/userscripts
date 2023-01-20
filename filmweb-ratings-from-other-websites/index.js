@@ -6,7 +6,7 @@
 // @homepageURL  https://github.com/rafenden/userscripts/blob/master/filmweb-ratings-from-other-websites
 // @supportURL   https://github.com/rafenden/userscripts/issues
 // @license      MIT
-// @version      1.0
+// @version      1.0.1
 // @match        *://www.filmweb.pl/*
 // @connect      www.omdbapi.com
 // @grant        GM_xmlhttpRequest
